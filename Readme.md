@@ -29,19 +29,19 @@ The app will be containerized using Docker.
    - Use React Bootstrap components to create the UI and the sidebar.
 
 4. Implement authentication and authorization using Keycloak. Create two different roles, normal user, and Pro user.
-   - Use the Keycloak documentation to set up authentication and authorization for your app. You can create two different roles, normal user and Pro user, and restrict access to certain sections of the app based on the user's role.
+   - Use the Keycloak documentation to set up authentication and authorization for your app. Create two different roles, normal user and Pro user, and restrict access to certain sections of the app based on the user's role.
 
 5. Implement the Stripe payment gateway and allow the user to buy a Pro license.
-   - Use the Stripe documentation to set up the payment gateway for your app. You can create a Pro license that users can buy to gain access to the Pro features of the app.
+   - Use the Stripe documentation to set up the payment gateway for your app. Create a Pro license that users can buy to gain access to the Pro features of the app.
 
 6. Integrate an API to search for music and display the results in the Search section.
    - Use an API like the Shazam API to search for music and display the results in the Search section of your app.
 
 7. Implement a favourites section where users can add music to their favourite list.
-   - You can create a favourites section where users can add music to their favourite list and display the list of favourite music.
+   - Create a favourites section where users can add music to their favourite list and display the list of favourite music.
 
 8. Implement a playlists section where users can create new playlists, add music to the playlists, and view their existing playlists. This section will only be available to Pro users.
-   - You can create a playlists section where users can create new playlists, add music to the playlists, and view their existing playlists. This section will only be available to Pro users who have bought the Pro license.
+   - Create a playlists section where users can create new playlists, add music to the playlists, and view their existing playlists. This section will only be available to Pro users who have bought the Pro license.
 
 9. Use Redux to manage the application's state, such as user authentication status, user preferences, and music playlists.
    - Use Redux to manage the application's state, such as user authentication status, user preferences, and music playlists.
